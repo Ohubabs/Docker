@@ -11,3 +11,5 @@ sudo docker version
 sudo usermod -aG docker ubuntu #<username>
 
 #Restart Docker Service or exit and re-login to server for group addition to take place.
+
+sudo systemctl restart docker.service
